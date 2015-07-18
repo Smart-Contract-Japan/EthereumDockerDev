@@ -1,7 +1,8 @@
 # Start Ethereum in Docker
 latest Docker images for ethereum developer 
 
-### for ubuntu-14.04 if using OSX please using the vagrant VM 
+## for ubuntu-14.04 if using OSX please using the vagrant VM 
+
 ```
 sudo apt-get install docker
 ```
