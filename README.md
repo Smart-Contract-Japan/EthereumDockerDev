@@ -15,15 +15,13 @@ docker images
 ```
 ### for testnet and private chain
 
-```
-docker run -it --entrypoint="/usr/bin/geth" syrohei/ethereum:0.9.39 -networkid "10" --datadir="/tmp/eth/60/01" console
-```
-### reference javascript API 
-https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console
 
-### docker run  option:   
+    docker run -it --entrypoint="/usr/bin/geth" syrohei/ethereum:0.9.39 -networkid "10" --datadir="/tmp/eth/60/01" console
+
+### reference javascript API 
+https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console  
 
 https://github.com/ethereum/go-ethereum/wiki/Running-in-Docker
   
-
-  donate BTC:1BmSux1nsQ6WEqdREX7VCoyQ7dsrwSoK3
+#### donate
+BTC:1BmSux1nsQ6WEqdREX7VCoyQ7dsrwSoK3
