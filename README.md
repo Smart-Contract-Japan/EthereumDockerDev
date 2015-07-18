@@ -13,14 +13,14 @@ sudo apt-get install docker
 
 `docker images` 
 
-## docker run  option: see that   
-
-https://github.com/ethereum/go-ethereum/wiki/Running-in-Docker
-
 ### for testnet and private chain
 
 ```
 docker run -it --entrypoint="/usr/bin/geth" syrohei/ethereum:0.9.36 -networkid "10" --datadir="/tmp/eth/60/01" console
 ```
-### see that to use javascript API 
+### reference javascript API 
 https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console
+
+## docker run  option:   
+
+https://github.com/ethereum/go-ethereum/wiki/Running-in-Docker
