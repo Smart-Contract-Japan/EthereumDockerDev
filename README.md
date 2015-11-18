@@ -1,8 +1,26 @@
 # Start Ethereum in Docker
 latest Docker images for ethereum developer 
 
-## for ubuntu-14.04 if using OSX please using the vagrant VM 
+first. this command tasks require to vmware virtual machine . please install following commands
 
+## for ubuntu-14.04 if using OSX please using the vagrant VM . installing  vagrant and virtual box
+```
+wget https://raw.githubusercontent.com/syrohei/dotfile/master/install_osx.sh
+```
+```
+chmod 644 ./install_osx.sh
+```
+```
+sudo sh ./install_osx.sh
+```
+### second. running up vagrant 
+```
+sudo vagrant up
+```
+``` 
+ssh vagrant
+```
+### installing docker
 ```
 sudo apt-get install docker
 ```
@@ -24,8 +42,6 @@ https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console
 
 https://github.com/ethereum/go-ethereum/wiki/Running-in-Docker
 
-### blockchain.rb [about 910000blocks,size 3GB]
-https://s3-ap-northeast-1.amazonaws.com/ethereum/blockcahin/blockchain.db
-  
+
 #### donate
 BTC:1BmSux1nsQ6WEqdREX7VCoyQ7dsrwSoK3
